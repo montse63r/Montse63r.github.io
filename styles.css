@@ -1,0 +1,324 @@
+/*.title {
+    color: green;
+}
+header, nav, main, footer{
+    width: 100%;
+    background-color: #B6465F;
+    color: green;
+    padding: 50px;   
+}
+nav{
+height: 30px;
+background-color: papayawhip;
+text-align: center; 
+}
+nav ul li{
+   text-align: center;    
+}
+nav ul li{
+    width: 10%;
+    height: auto;
+    padding: 1%;
+    background-color: antiquewhite;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+
+nav ul li a:link, navarro ul li a:visited{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bolder;   
+}
+
+main{
+  width: 80%;
+  margin-left: auto;
+    margin-right: auto;
+    height: auto;  
+}
+section{
+   width: 80%;
+   background-color: #EBD4CB;
+     
+}
+h1{
+  text-align: center;  
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header, nav, footer, main{
+    width: 100%;
+    background-color: brown;
+    padding: 50px;
+    color:floralwhite;
+}
+
+nav{
+    height: 50px;
+    background-color:#EBD4CB;
+    
+}
+
+.menu li{
+    width: 100px;
+    list-style-type: none;
+    display: inline-block;
+    background-color: #890620;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-style: solid; /*Activa para poder hacer el borde redondéado*/
+    border-radius: 20px; /*Para un borde redondeado*/
+    
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:link, .menu li a:visited{ /*El menú se modifica cuando está visitado y no visitado*/
+   color: bisque; 
+}
+.menu li:hover{
+    background-color:#B6465F; 
+}
+.menu li a:hover{
+    color: brown;
+}
+
+.contenido{
+    background-color: #B6465F;
+}
+.contenido section{
+    background-color: brown;
+    color: floralwhiteactive;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenido h2{
+    color:rgba(255, 128, 201, 0.86);
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 35px;
+    
+}
+.centrar{
+    text-align: center;
+}
+
+seccion p{
+    margin-bottom: 3px;
+}
+
+/*Tablas*/
+#tabla_3 tbody tr:nth-child(odd){
+    background-color: #547792;
+    color: #E8E2DB;
+}
+#tabla_3 tyh{
+    background-color: #0f1e3d;
+    color: #FAB95B;
+}
+
+
+
+#tabla_4{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+#tabla_4 th{
+    background-color: blue;
+    color: #FAB95B;
+}
+#tabla_4 td, #tabla_4 th{
+    border-style: solid;
+    border-width: 3px;
+    border-color:black;
+    padding: 10px;
+}
+#tabla_4 tbody tr:hover{
+    background-color:antiquewhite;
+}
+
+.img-xsmall{
+    width: 25%;
+    height: auto;
+}
+.img-small{
+    width: 50%;
+    height: auto;
+}
+.img-medium{
+    width: 50%;
+    height: auto;
+}
+.img-large{
+    width: 100%;
+    height: auto;
+}
+.img-centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400%;
+}
+.img-borde{
+    border-style: solid;
+    border-width: 10%;
+    border-color: crimson;
+    border-radius: 30px;
+}
+.img-float-izq{
+    float: left;
+    margin-right: 1opx;
+}
+.img-float-der{
+    float: right;   
+}
+p{
+    text-align: center;
+}
+.box-text-center{
+    text-align: center;
+}
+div img{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.filtro-grises{
+    filter: grayscale(100%);
+}
+.filtro-briloo{
+    filter: brightness(100%);
+}
+.filtro-contraste{
+    filter: contrast(150%);
+}
+.filtro-negativo{
+    filter: invert(100%);
+}
+.filtro-saturacion{
+    filter: saturate(200%);
+}
+.filtro-sepia{
+    filter: sepia(100%);
+}
+.filtro-opacidad{
+    filter: opacity(50%);
+}
+.filtro-sombra{
+    filter: drop-shadow(20px 10px 20px blue);
+}
+.fondo-section{
+    background-image: url(Img/tex1.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.fondo-section h2{
+  padding-top: 150px;
+    text-align: center;
+}
+.fondo-section p{
+   margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.fondo-section div p{
+    /*background-color: lightgray;
+    opacity: 0.5;*/
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color:#1A3263;
+}
+.espacio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    margin: auto;
+}
+.size-video-vertical{
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img-perfil{
+    width: 30%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.cabecera{
+    display: inline-block;
+}
+.cabecera img{
+    width: 10%
+    float: left;
+}
+.cabecera h1{
+    width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
